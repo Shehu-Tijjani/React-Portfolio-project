@@ -1,0 +1,47 @@
+/* About.module.css */
+.about {
+  padding: 60px 20px;
+  background: #f9f9f9;
+}
+
+.bio {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.bio h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.bio p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.skills {
+  max-width: 800px;
+  margin: 40px auto 0;
+  text-align: center;
+}
+
+.skills h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  font-size: 1.1rem;
+  color: #444;
+  margin: 10px 0;
+}

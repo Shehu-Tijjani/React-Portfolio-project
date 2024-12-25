@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  align-items: center;
+  padding: 30px 100px;
+}
+
+.sticky {
+  position: fixed;
+  width: 100%;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.navbar ul li {
+  display: inline-block;
+}
+
+.navbar a {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: rgba(51, 51, 51, 0.5);
+}
